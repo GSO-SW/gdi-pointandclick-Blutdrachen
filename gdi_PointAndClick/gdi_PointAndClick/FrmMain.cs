@@ -34,7 +34,15 @@ namespace gdi_PointAndClick
         {
             Point mausposition = e.Location;
 
-            Rectangle r = new Rectangle(mausposition.X, mausposition.Y, 40, 40);
+            Rectangle r = new Rectangle(mausposition.X-20, mausposition.Y-20, 40, 40);
+
+            for (int i = 0; i < rectangles.Count; i++)
+            {
+                if (rectangles[i].Contains();
+                {
+                    
+                }
+            }
 
             rectangles.Add(r);  // Kurze Variante: rectangles.Add( new Rectangle(...)  );
 
